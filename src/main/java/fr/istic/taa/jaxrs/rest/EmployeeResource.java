@@ -19,7 +19,6 @@ import io.swagger.v3.oas.annotations.Parameter;
 @Path("/employee")
 @Produces({ "application/json", "application/xml" })
 public class EmployeeResource {
-	
 	EmployeeDAO dao;
 	
 	public EmployeeResource() {
